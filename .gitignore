@@ -1,0 +1,15 @@
+# Private business numbers: never publish
+config/settings.json
+results*.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

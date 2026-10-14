@@ -1,0 +1,49 @@
+{
+  "_note": "SAMPLE numbers for demonstration. Copy this file to settings.json and put your real figures there. settings.json is ignored by Git so it never gets published.",
+  "rates_to_brl": {
+    "USD": 5.40,
+    "EUR": 6.30,
+    "JPY": 0.036,
+    "CNY": 0.75,
+    "HKD": 0.69
+  },
+  "defaults": {
+    "markup_percent": 60,
+    "import_tax_percent": 0
+  },
+  "routes": {
+    "orlando-brazil": {
+      "name": "Orlando -> Brazil (home base)",
+      "trip_cost_usd": 0,
+      "capacity_kg": 0,
+      "onward_bag_fee_usd": 200,
+      "onward_bag_kg": 20
+    },
+    "tokyo-orlando-brazil": {
+      "name": "Tokyo -> Orlando -> Brazil",
+      "trip_cost_usd": 3000,
+      "capacity_kg": 100,
+      "onward_bag_fee_usd": 200,
+      "onward_bag_kg": 20
+    },
+    "tokyo-brazil": {
+      "name": "Tokyo -> Brazil direct",
+      "trip_cost_usd": 4000,
+      "capacity_kg": 100
+    },
+    "paris-orlando-brazil": {
+      "name": "Paris -> Orlando -> Brazil",
+      "trip_cost_usd": 2800,
+      "capacity_kg": 100,
+      "onward_bag_fee_usd": 200,
+      "onward_bag_kg": 20
+    },
+    "california-orlando-brazil": {
+      "name": "California -> Orlando -> Brazil",
+      "trip_cost_usd": 1800,
+      "capacity_kg": 100,
+      "onward_bag_fee_usd": 200,
+      "onward_bag_kg": 20
+    }
+  }
+}
