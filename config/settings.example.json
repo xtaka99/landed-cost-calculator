@@ -44,6 +44,20 @@
       "capacity_kg": 100,
       "onward_bag_fee_usd": 200,
       "onward_bag_kg": 20
+    },
+    "shanghai-orlando-brazil": {
+      "name": "Shanghai -> Orlando -> Brazil",
+      "trip_cost_usd": 3200,
+      "capacity_kg": 100,
+      "onward_bag_fee_usd": 200,
+      "onward_bag_kg": 20
+    },
+    "hongkong-orlando-brazil": {
+      "name": "Hong Kong -> Orlando -> Brazil",
+      "trip_cost_usd": 3300,
+      "capacity_kg": 100,
+      "onward_bag_fee_usd": 200,
+      "onward_bag_kg": 20
     }
   }
 }
